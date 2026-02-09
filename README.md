@@ -1,16 +1,73 @@
-# React + Vite
+# 🚀 Ali Ragoubi | Full Stack MERN Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
-Currently, two official plugins are available:
+A modern, high-performance portfolio website built to showcase my skills as a **Full Stack MERN Developer**. Designed with a focus on responsiveness, smooth animations, and a clean UI/UX.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** [ragoubi.site](https://ragoubi.site)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
 
-## Expanding the ESLint configuration
+*   **⚡ High Performance:** Built with Vite & React for blazing fast load times.
+*   **🎨 Modern Design:** Styling powered by **Tailwind CSS** with a futuristic layout.
+*   **🎭 Smooth Animations:** Interactive elements using **Framer Motion**.
+*   **📱 Fully Responsive:** Optimized for Mobile, Tablet, and Desktop.
+*   **🌍 Multi-Language:** Support for English (EN) and French (FR).
+*   **🌙 Dark Mode:** Sleek dark theme by default.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+*   **Frontend:** React.js (Vite)
+*   **Styling:** Tailwind CSS, PostCSS
+*   **Icons:** React Icons (Lucide, FontAwesome, Tabler)
+*   **Animations:** Framer Motion
+*   **Scrolling:** React Scroll
+
+---
+
+## 🚀 How to Run Locally
+
+If you want to check the code or run it on your machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone git remote add origin https://github.com/Ragoubize/portfolio-v1.git
+    ```
+
+2.  **Navigate to the project folder:**
+    ```bash
+    cd portfolio-v1
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open your browser at `http://localhost:5173`.
+
+---
+
+## 📬 Contact Me
+
+*   **Portfolio:** [ragoubi.site](https://ragoubi.site)
+*   **Email:** ragobiaze@gmail.com
+*   **LinkedIn:** [Ali Ragoubi](https://www.linkedin.com/in/aliragoubi/)
+*   **GitHub:** [Ali Ragoubi](https://github.com/Ragoubize)
+
+---
+<p align="center">
+  Made with ❤️ by <strong>Ali Ragoubi</strong>
+</p>
