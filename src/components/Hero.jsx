@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight } from 'lucide-react';
+import { Link } from 'react-scroll'; 
 
 const Hero = ({ t }) => {
   return (
@@ -31,12 +32,24 @@ const Hero = ({ t }) => {
           </p>
 
           <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
-            <button className="px-8 py-4 bg-accent hover:bg-cyan-400 text-primary font-orbitron font-bold rounded-lg transition-all shadow-lg shadow-cyan-500/20 flex items-center gap-2">
+            
+            <Link 
+              to="projects" 
+              smooth={true} 
+              duration={800} 
+              className="px-8 py-4 bg-accent hover:bg-cyan-400 text-primary font-orbitron font-bold rounded-lg transition-all shadow-lg shadow-cyan-500/20 flex items-center gap-2 cursor-pointer"
+            >
               {t.hero.btn1} <ArrowRight size={20} />
-            </button>
-            <button className="px-8 py-4 border border-slate-600 hover:border-white hover:bg-white/5 rounded-lg transition-all font-orbitron flex items-center gap-2">
+            </Link>
+
+            
+            <a 
+              href="/cv.pdf" 
+              download="CV_Ali_Ragoubi.pdf" 
+              className="px-8 py-4 border border-slate-600 hover:border-white hover:bg-white/5 rounded-lg transition-all font-orbitron flex items-center gap-2 text-white"
+            >
               <Download size={20} /> {t.hero.btn2}
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>

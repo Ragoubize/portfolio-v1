@@ -7,7 +7,7 @@
 body {
   background-color: #020617;
   color: #e2e8f0;
-  overflow-x: hidden; /* كيمنع السكرول فالجانب */
+  overflow-x: hidden; 
 }
 
 /* Custom Scrollbar */
